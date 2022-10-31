@@ -1,0 +1,202 @@
+.MessageStory {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, o, 0, 0.75);
+    width: 80%;
+    border: 1px solid transparent;
+
+}
+
+.MessageStory_top {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #eff2f5;
+}
+
+.MessageStory_top form {
+    flex: 1;
+    display: flex;
+}
+
+.MessageStory_top form input {
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.MessageStory_top form button {
+    color: black;
+
+}
+
+.MessageStory_input {
+    flex: 1;
+}
+
+.MessageStory_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.MessageStory_option {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.MessageStory_option h4 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.MessageStory_option :hover {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.Common {
+    width: 650px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    left: 20px;
+
+}
+
+.div_map {
+    width: 100px;
+    background-color: navy;
+    color: white;
+    padding: 15px;
+
+}
+
+.primary {
+    width: 100px;
+    height: auto;
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    position: relative;
+    left: 30px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .MessageStory {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 5px 7px -7px rgba(0, o, 0, 0.75);
+        width: 100%;
+        border: 1px solid transparent;
+    }
+
+    .MessageStory_top {
+        display: flex;
+        padding: 5px;
+        border-bottom: 1px solid #eff2f5;
+        position: relative;
+        left: 200px;
+    }
+
+    .MessageStory_top form {
+        flex: 1;
+        display: flex;
+    }
+
+    .MessageStory_top form input {
+        outline-width: 0;
+        border: none;
+        padding: 5px 20px;
+        margin: 0 10px;
+        border-radius: 999px;
+        background-color: #eff2f5;
+    }
+
+    .MessageStory_top form button {
+        color: black;
+
+    }
+
+    .MessageStory_input {
+        flex: 1;
+    }
+
+    .MessageStory_bottom {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: 200px;
+    }
+
+    .MessageStory_option {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        color: gray;
+        margin: 5px;
+    }
+
+    .MessageStory_option h4 {
+        font-size: medium;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .MessageStory_option :hover {
+        background-color: blue;
+        border-radius: 20px;
+    }
+
+    .Common {
+        width: 650px;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        position: relative;
+        left: 200px;
+
+    }
+
+    .div_map {
+        width: 100px;
+        background-color: navy;
+        color: white;
+        padding: 15px;
+
+    }
+
+    .primary {
+        width: 100px;
+        height: auto;
+        padding: 15px;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        transition: calc(0.03) ease cubic-bezier(0.075, 0.82, 0.165, 1);
+        cursor: pointer;
+        position: relative;
+        left: 210px;
+    }
+}
